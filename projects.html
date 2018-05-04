@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link href="css/materialize.min.css" media="screen,projection" rel="stylesheet" type="text/css">
+	<!--CSS stylesheets -->
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+	<!--Let browser know website is optimized for mobile-->
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Projects</title>
+	<style>
+		html {
+			background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .7)), url("images/code1.jpeg") no-repeat center center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+	</style>
+</head>
+
+<body>
+	<header class="container">
+		<nav class="transparent ta z-depth-0">
+			<div class="nav-wrapper">
+				<a href="#">
+					<img class='logo-design' src="images/Murray%20Watts.png">
+				</a>
+				<ul class="right" id="nav-mobile">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="teaching.html">Teaching</a>
+					</li>
+					<li>
+						<a class="active" href="projects.html">Projects</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<div class="divider"></div>
+		</nav>
+	</header>
+	<main>
+		<div class="container teaching-block">
+			<!--Import jQuery before materialize.js-->
+			<script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript">
+			</script>
+			<script src="js/materialize.min.js" type="text/javascript">
+			</script>
+			<div class='row section'>
+				<div class="welcome">
+					<h1>Projects</h1>
+					<div class="col s3">
+						<a href='#'>
+							<img alt="Portfolio" class="responsive-img portfolio-image" src="images/portfoliosite.png"> </a>
+					</div>
+					<div class='col s1'></div>
+					<div class='right col s8 portfolio-text'>
+						<h4>Portfolio Site</h4>
+						<p>My personal site I put together to showcase some of the things I'm currently doing and am currently interested in.
+							When building the site, I primarily used the Materialize Responsive CSS framework. I have nothing but nice things
+							to say about it. The grid is really lovely to work with and the helpers they include such as footer formatting, form
+							items and buttons make life a lot easier.</p>
+					</div>
+				</div>
+			</div>
+			<div class='row section'>
+				<div class="col s3">
+					<a href='https://serene-castle-65938.herokuapp.com/'>
+						<img alt="Big Lap" class="responsive-img portfolio-image" src="images/biglap.png">
+					</a>
+				</div>
+				<div class='col s1'></div>
+				<div class='right col s8 portfolio-text'>
+					<h4>The Big Lap</h4>
+					<p>A webapp I built using Python and Flask when I was planning a trip across the Nullabor last year. I thought it would
+						be a good idea to put together a site that calculates fuel usage, fuel cost and driving time. First time hosting anything
+						on Heroku and I'm impressed! In the future I will be fixing up the responsive nature of the page and implementing a
+						login module to allow the saving of trips.</p>
+				</div>
+				<div class='row section'>
+					<div class="col s3">
+						<a href='https://coinmarket123.herokuapp.com/'>
+							<img alt="Crypto Search" class="responsive-img portfolio-image" src="images/biglap.png">
+						</a>
+					</div>
+					<div class='col s1'></div>
+					<div class='right col s8 portfolio-text'>
+						<h4>Crypto Search</h4>
+						<p>A webapp I built using React and Ant Design. Pulls in the top cryptocoins 8 as a home page and allows you to search
+							through the top 100 to get some price information and a pretty graph. With props to CoinMarketCap for the API.</p>
+					</div>
+				</div>
+
+			</div>
+	</main>
+	<footer class="page-footer transparent">
+		<div class='container'>
+			<div class="row">
+				<div class='footer-copyright'>
+					<p>© 2018 - Murray Watts All Rights Reserved</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

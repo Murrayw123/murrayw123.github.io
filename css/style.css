@@ -61,8 +61,15 @@ p, h1 {
 
 .portfolio-text {
     margin-top: 0px;
-    padding: 0;
+    padding-top: 0;
 }
+
+
+.portfolio-text h4 {
+	margin-top: 0px;
+	padding-top: 0;
+}
+
 
 /* ===CONTACT=== */
 
